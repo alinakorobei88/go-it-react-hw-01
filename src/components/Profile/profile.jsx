@@ -1,21 +1,21 @@
 const Profile = ({name, tag, location, image, stats}) => {
     return (
-        <div className="">
-         <div className="">
-          <img src={image} alt="User avatar" />
-          <p>{name}</p>
-          <p>@{tag}</p>
-          <p>{location}</p>
+        <div className="profile">
+         <div className="description">
+          <img src={image} alt="User avatar" className="avatar" />
+          <p className="name">{name}</p>
+          <p className="tag">@{tag}</p>
+          <p className="location">{location}</p>
          </div>
 
-         <ul>
+         <ul className="stats">
             <li>
-                <span>Followers</span>
-                <span>{stats.followers}</span>
+                <span className="label">Followers</span>
+                <span className="quantity">{stats.followers}</span>
             </li>
             <li>
-                <span>Views</span>
-                <span>{stats.views}</span>
+                <span className="label">Views</span>
+                <span className="quantity">{stats.views}</span>
             </li>
             <li>
                 <span>Likes</span>
