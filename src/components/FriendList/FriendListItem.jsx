@@ -1,3 +1,5 @@
+import styles from './FriendList.module.css';
+
 const FriendListItem = ({avatar, name, isOnLine}) => {
     return (
       <div className={styles.friend}>
