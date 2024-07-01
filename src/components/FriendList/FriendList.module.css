@@ -23,18 +23,14 @@
     height: 150px;
   }
   
-  .status {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-  }
+  
   
   .online {
-    background-color: green;
+    color: green;
   }
   
   .offline {
-    background-color: red;
+    color: red;
   }
   
   .avatar {
